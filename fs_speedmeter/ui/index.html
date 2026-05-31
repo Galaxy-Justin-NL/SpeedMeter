@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="vehicle-hud">
+            <div class="top-row">
+                <span class="kmh-text">KMH</span>
+                <span class="fuel-icon">⛽</span>
+            </div>
+
+            <div class="middle-row">
+                <div class="gear-box" id="gear">1</div>
+                <div class="speed-numbers" id="speed">000</div>
+                
+                <div class="fuel-container">
+                    <div class="fuel-bar-fill" id="fuel-fill"></div>
+                </div>
+
+                <div class="belt-icon" id="belt"></div>
+            </div>
+
+            <div class="speed-bar" id="speed-bar-container"></div>
+        </div>
+
+        <div id="status-hud">
+            <div class="health-container">
+                <span class="heart">❤️</span>
+                <div class="bar-bg">
+                    <div class="bar-fill" id="health-bar"></div>
+                </div>
+            </div>
+            <div class="needs-text">
+                <span>🍴 <span id="hunger-val">100%</span></span>
+                <span>🥛 <span id="thirst-val">100%</span></span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
